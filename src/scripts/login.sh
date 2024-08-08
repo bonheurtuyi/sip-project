@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USERS_FILE=C:\\Users\\STUDENT\\Desktop\\project\\src\\data\\users.txt
+USERS_FILE=./data/users.txt
 passedEmail=$1
 passedPassword=$2
 

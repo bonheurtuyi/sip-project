@@ -40,7 +40,8 @@ public class MenuController {
 
                 switch (adminOption) {
                     case 1:
-                        System.out.println("initiate registration");;
+                        System.out.println("initiating user registration");
+                        admin.initiateRegistration();
                         break;
                     case 2:
                         System.out.println("Download CSV");;
