@@ -1,5 +1,5 @@
 package modules;
 
 public enum UserRole {
-    admin, patient;
+    Admin, Patient;
 }

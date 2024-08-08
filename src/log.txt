@@ -1,9 +1,0 @@
-bash: ./login.sh: No such file or directory
-bash: login.sh: No such file or directory
-bash: ./login.sh: No such file or directory
-bash: /mnt/c/Users/STUDENT/Desktop/project/src/./src/scripts/login.sh: No such file or directory
-/bin/bash: C:UsersSTUDENTDesktopprojectsrc./src/scripts/login.sh: No such file or directory
-/bin/bash: ./login.sh: No such file or directory
-/bin/bash: /login.sh: No such file or directory
-/bin/bash: c: No such file or directory
-/bin/bash: c: No such file or directory

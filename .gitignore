@@ -14,7 +14,7 @@ out/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
-
+.class
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -27,3 +27,4 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+*.class
