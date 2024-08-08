@@ -12,7 +12,8 @@ public class Admin extends User {
 
         // Check if entered details are correct
         if (userController.verifyLoginCredentials(email, password).equals("admin")) {
-            System.out.println("Admin Logged in successful.");
+            System.out.println("Admin Logged in successfully!");
+            System.out.println("---");
             return true;
         } else {
             return false;

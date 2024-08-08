@@ -87,7 +87,8 @@ public class Patient extends User {
     public boolean userLogin(String email, String password) {
         // Check if entered details are correct
         if (userController.verifyLoginCredentials(email, password).equals("patient")) {
-            System.out.println("Patient Logged in successful.");
+            System.out.println("Patient Logged in successfully!");
+            System.out.println("---");
             return true;
         } else {
             return false;

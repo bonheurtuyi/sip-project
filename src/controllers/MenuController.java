@@ -23,14 +23,12 @@ public class MenuController {
             int adminOption = 0;
 
             do {
-                System.out.println("******************************");
-                System.out.println("HIV Life Expectancy Menu for Admin:");
+                System.out.println("Welcome Admin:");
                 System.out.println("1. Register a Patient");
-                System.out.println("2. Download Data(csv)");
+                System.out.println("2. Generate users' list");
                 System.out.println("3. Logout");
-                System.out.println("*********************************");
 
-                System.out.print("Select Your Option Now: ");
+                System.out.print("Input choice: ");
 
                 if (scanner.hasNextInt()) {
                     adminOption = scanner.nextInt();
@@ -51,7 +49,7 @@ public class MenuController {
                         System.out.println("Logged out");
                         break;
                     default:
-                        System.out.println("You selected an invalid option");
+                        System.out.println("Invalid option, please try again.");
                         break;
                 }
             } while (adminOption != 3);
@@ -63,14 +61,12 @@ public class MenuController {
             int option = 0;
 
             do {
-                System.out.println("******************************");
-                System.out.println("HIV Life Expectancy Menu for Patient:");
-                System.out.println("1. View Patient Profile");
-                System.out.println("2. Edit Patient Profile");
+                System.out.println("Welcome:");
+                System.out.println("1. View Profile");
+                System.out.println("2. Edit Profile");
                 System.out.println("3. Logout");
-                System.out.println("*********************************");
 
-                System.out.print("Select Your Option Now: ");
+                System.out.print("Input choice: ");
 
                 if (scanner.hasNextInt()) {
                     option = scanner.nextInt();

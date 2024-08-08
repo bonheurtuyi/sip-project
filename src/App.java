@@ -1,12 +1,20 @@
 import controllers.MenuController;
+import controllers.UserController;
+import modules.Admin;
+
 import java.util.Scanner;
+import modules.Patient;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Welcome to Life Prognosis Management Tool");
         MenuController menuController = new MenuController();
+        UserController userController = new UserController();
+        Admin admin = new Admin();
         Scanner scanner = new Scanner(System.in);
-        int mainChoice;
+
+        System.out.println("Welcome to Life Prognosis Management Tool");
+
+        int mainChoice = 0;
 
         do {
             System.out.println("Select your choice:");
@@ -27,13 +35,12 @@ public class App {
 
             switch (mainChoice) {
                 case 1:
-                    System.out.println("Patient");
-                    System.out.println("Logging in...");
+                    System.out.println("Patient logging in...");
                     menuController.userMenu();
                     break;
                 case 2:
-                    System.out.println("Admin");
-                    // Admin login logic here
+                    System.out.println("Admin logging in...");
+                    menuController.userMenu();
                     break;
                 case 3:
                     System.out.println("Help");
