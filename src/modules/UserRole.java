@@ -1,2 +1,5 @@
-package modules;public enum UserRole {
+package modules;
+
+public enum UserRole {
+    admin, patient;
 }
