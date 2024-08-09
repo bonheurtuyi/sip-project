@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 
 public class UserController {
     public String verifyLoginCredentials(String email, String password) {
-        String[] cmd = new String[] { "bash", "C:\\Users\\STUDENT\\Desktop\\project\\src\\scripts\\login.sh", email, password };
+        String[] cmd = new String[] { "bash", "./scripts/login.sh", email, password };
         try {
             ProcessBuilder pb = new ProcessBuilder(cmd);
             Process p = pb.start();
@@ -30,7 +30,6 @@ public class UserController {
             } else if (p.exitValue() == 2) {
                 return "patient";
             }
-            System.out.println(p.exitValue());
         } catch (IOException e) {
             e.printStackTrace();
         } catch (InterruptedException e) {
@@ -40,10 +39,10 @@ public class UserController {
         return "invalid"; // invalid credentials
     }
     public void storeUserDataToFile(Patient patient) {
-        //Ask TAs question here. Ref: ["NULL"]
-        String[] cmd = new String[] {"bash", "./scripts/initiate-registration.sh", patient.getUUID(), patient.getFirsname(),
+
+        String[] cmd = new String[] {"bash", "./scripts/initiate-registration.sh", patient.getUUID(), patient.getFirstName(),
                 patient.getLastname(), patient.getEmail(), patient.getPassword(), patient.getDob(), patient.getHasHiv(),
-                patient.getDignosisDate(), patient.getOnArtDrug(), patient.getDateBeganDrug(),
+                patient.getDiagnosisDate(), patient.getOnArtDrug(), patient.getDateBeganDrug(),
                 patient.getCountryOfResidence(), "NULL", patient.getRole() };
         try {
             ProcessBuilder pb = new ProcessBuilder(cmd);

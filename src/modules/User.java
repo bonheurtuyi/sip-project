@@ -13,7 +13,7 @@ public abstract class User{
     public String getUUID(){
         return uuid;
     }
-    public String getFirsname(){
+    public String getFirstName(){
         return firstname;
     }
     public String getLastname(){
@@ -33,8 +33,8 @@ public abstract class User{
     public void setUuid(String uuid) {
         this.uuid = uuid;
     }
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
+    public void setFirstname(String firstName) {
+        this.firstname = firstName;
     }
     public void setLastname(String lastname) {
         this.lastname = lastname;

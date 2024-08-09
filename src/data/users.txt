@@ -1,6 +1,4 @@
 uuid firstname lastname email password dob has_hiv diagnosis_date on_art start_drug_date iso role
-01 John Admin admin@gmail.com 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918 00-00-0000 yes 00-00-0000 yes 00-00-0000 010 admin
+01 John Admin admin@gmail.com 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918 00-00-0000 yes 00-00-0000 yes 00-00-0000 RW admin
 02 Doe User patient@gmail.com d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1 09-09-2000 yes 09-09-2000 yes 09-10-2000 020 patient
-45a944ad-6255-4023-b941-852f59b0506c NULL NULL user2@gmail.com NULL NULL NULL NULL NULL NULL NULL Patient
-efaafbf8-e7bc-4f8d-a2af-d6fb3e3be25a NULL NULL user3@gmail.com NULL NULL NULL NULL NULL NULL NULL Patient
-bae2e6f9-fec1-4aaa-865a-50896d407c69 NULL NULL djaz@gmail.com NULL NULL NULL NULL NULL NULL NULL Patient
+74bbea10-fad9-477a-82cd-cfd05ffd988c Eulade Muhizi eulade@gmail.com 1524ef9a54c9c399881699970ddb9f2071850b06e1ffe37adae6c4e6019e859f eulade 05-10-2000 yes 08-12-2010 yes 08-10-2011 Patient

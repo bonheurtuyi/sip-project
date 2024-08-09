@@ -1,3 +1,4 @@
 uuid firstname lastname email password dob has_hiv diagnosis_date on_art start_drug_date iso role
-01 John Admin admin@gmail.com 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918 00-00-0000 yes 00-00-0000 yes 00-00-0000 010 admin
+01 John Admin admin@gmail.com 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918 00-00-0000 yes 00-00-0000 yes 00-00-0000 RW admin
 02 Doe User patient@gmail.com d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1 09-09-2000 yes 09-09-2000 yes 09-10-2000 020 patient
+4f0671ff-9f00-4a11-abf9-3f0a40081404 Bonheur Bobo bobo@gmail.com f728a8a8818266b84490aa3eb1bb50833bb68e645e3668fdabdad6c76bae3899 bobo 08-15-2000 no NULL NULL 4f0671ff-9f00-4a11-abf9-3f0a400814040 Patient

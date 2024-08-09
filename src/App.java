@@ -14,14 +14,15 @@ public class App {
 
         System.out.println("Welcome to Life Prognosis Management Tool");
 
-        int mainChoice = 0;
+        int mainChoice;
 
         do {
             System.out.println("Select your choice:");
-            System.out.println("1. Patient");
-            System.out.println("2. Admin");
-            System.out.println("3. Help");
-            System.out.println("4. Exit");
+            System.out.println("1. Complete registration");
+            System.out.println("2. Patient");
+            System.out.println("3. Admin");
+            System.out.println("4. Help");
+            System.out.println("5. Exit");
             System.out.print("Input your choice: ");
 
             // Check if the input is an integer
@@ -35,24 +36,29 @@ public class App {
 
             switch (mainChoice) {
                 case 1:
+                    System.out.println("Complete registration");
+                    Patient patient = new Patient();
+                    patient.storeUserDataToFile();
+                    break;
+                case 2:
                     System.out.println("Patient logging in...");
                     menuController.userMenu();
                     break;
-                case 2:
+                case 3:
                     System.out.println("Admin logging in...");
                     menuController.userMenu();
                     break;
-                case 3:
+                case 4:
                     System.out.println("Help");
                     // Help menu logic here
                     break;
-                case 4:
+                case 5:
                     System.out.println("Quitting...");
                     break;
                 default:
                     System.out.println("Invalid input, please try again!");
             }
-        } while (mainChoice != 4);
+        } while (mainChoice != 5);
 
         scanner.close();  // Close the scanner when done
     }
