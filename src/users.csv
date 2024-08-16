@@ -1,0 +1,6 @@
+UUID Firstname Lastname Email DOB HIVStatus Diagnosis_date On_art Start_drug_date CountryCode Role
+uuid,firstname,lastname,email,password,dob,has_hiv,diagnosis_date,on_art,start_drug_date,iso role
+01,John,Admin,admin@hotmail.com,8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918,00-00-0000,yes,00-00-0000,yes,00-00-0000,RW admin
+02,Doe,User,patient@hotmail.com,d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1,09-09-2000,yes,09-09-2000,yes,09-10-2000,AR patient
+09003645-3c1d-47dc-9ec0-c0b15c67b06c,Eulade,Muhizi,eulade@gmail.com,619c3611e3cda550a507a7d4ef51a50acc252d611c11aecb79724b16865a7d73,eulade,02-12-2000,yes,05-12-2010,no,NULL Patient
+aa49eb24-d6a4-45d2-b0a5-de0f457569da,Eulade,Muhizi,eulade@gmail.com,1524ef9a54c9c399881699970ddb9f2071850b06e1ffe37adae6c4e6019e859f,eulade,18-20-200,yes,18-20-2010,no,NULL Patient
